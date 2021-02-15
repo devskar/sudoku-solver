@@ -21,8 +21,6 @@ for i in range(len(inp)):
 while True:
     i = sudoku.solve()
 
-    print(i)
-
     if i == 0:
         break
 
